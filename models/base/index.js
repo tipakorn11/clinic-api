@@ -1,4 +1,5 @@
 
 module.exports = {
-    DeviceModel: require('./device.model'),
+    PatientRegisterModel: require('./patient-register.model'),
+    PatientManagementModel: require('./patient-management.model'),
 }

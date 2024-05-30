@@ -1,4 +1,5 @@
 module.exports = {
-    DeviceController:require('./device.controller'),
+    PatientRegisterController:require('./patient-register.controller'),
+    PatientManagementController:require('./patient-management.controller'),
 }
 

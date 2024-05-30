@@ -1,3 +1,4 @@
 module.exports = {
-    DeviceService: require('./device.service'),
+    PatientRegisterService: require('./patient-register.service'),
+    PatientManagementService: require('./patient-management.service'),
 }
