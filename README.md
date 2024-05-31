@@ -1,4 +1,4 @@
-# bigdata-server
+# clinitor-api
 #install
 npm i 
 npm i -g nodemon
