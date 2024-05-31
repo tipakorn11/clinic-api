@@ -24,7 +24,7 @@ Task.getPatientManagementBy = function getPatientManagementBy(data, connection) 
 Task.getPatientManagementById = function getPatientManagementById(data, connection) {
   return new Promise((resolve, reject) => {
     let sql = `SELECT *
-                FROM ${db["base"]}.tb_patient_management LEFT JOIN  tb_pateint_registration as tb2 
+                FROM ${db["base"]}.tb_patient_management LEFT JOIN  tb_patient_registration as tb2 
                 ON tb1.patient_id = tb2.patient_id
                 WHERE patient_id = ${connection.escape(data.patient)} 
                 `
